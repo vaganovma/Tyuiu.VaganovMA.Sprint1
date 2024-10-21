@@ -10,9 +10,9 @@ public class DataServiceTest
     public void ValidExpression()
     {
         DataService ds = new DataService();
-        int a = 143;
+        int k = 143;
         double wait = 3;
-        var res = ds.Calculate(a);
+        var res = ds.Calculate(k);
         Assert.AreEqual(wait, res);
     }
 }

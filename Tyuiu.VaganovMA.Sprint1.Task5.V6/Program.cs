@@ -20,15 +20,15 @@ class Program
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
-        int a;
+        int k;
 
         Console.WriteLine("введите количество дней от 1 до 365 (a)");
-        a = Convert.ToInt32(Console.ReadLine());
+        k = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Результат:                                                              *");
         Console.WriteLine("***************************************************************************");
-        int R = ds.Calculate(a);
+        int R = ds.Calculate(k);
         
         Console.WriteLine("Ответ = " + (R));
         switch (R)
