@@ -15,4 +15,4 @@ public class DataServiceTest
         var res = ds.Calculate(k);
         Assert.AreEqual(wait, res);
     }
-}
+} 
