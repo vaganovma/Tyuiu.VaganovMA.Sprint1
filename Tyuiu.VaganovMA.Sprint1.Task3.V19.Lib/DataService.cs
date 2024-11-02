@@ -6,7 +6,11 @@ public class DataService : ISprint1Task3V19
 {
     public bool ElephCanMove(double x1, double x2, double y1, double y2)
     {
-        return x2-x1==y2-y1;
+        if (x1 != x2 && y1 != y2)
+        {
+            return true;
+        }
+        return false;
     }
 }
 

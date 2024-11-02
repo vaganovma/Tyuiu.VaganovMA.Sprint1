@@ -34,7 +34,7 @@ class Program
 
 
         {
-            if (((Math.Abs(x1 - x2) == (Math.Abs(y1 - y2)));
+            if (((Math.Abs(x1 - x2) == (Math.Abs(y1 - y2)))))
               {
             Console.WriteLine("true");
               }
